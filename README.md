@@ -1,68 +1,54 @@
 # Martín Bernardo Bonilla
 
-🚀 Fullstack developer enfocado en e-commerce y pagos en tiempo real  
-Flutter (mobile/web) + Node.js · MercadoPago (webhooks, polling, idempotencia)
+**Fullstack Developer** · Node.js · Flutter · MongoDB
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martín_Bonilla-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/martinbernardobonilla)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Biye_App-00C7B7?style=flat&logo=vercel)](https://woodstack-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-contacto-D14836?style=flat&logo=gmail)](mailto:martinbernardobonilla@gmail.com)
 
 ---
 
-## 🚀 Live Demo
-
-🌐 https://biye-app.vercel.app  
-⚙️ https://biye-ecommerce-production.up.railway.app
-
----
-
-## 💳 Proyecto Destacado
-
-### 🛒 Biye — E-commerce con MercadoPago
-
-Plataforma fullstack de e-commerce con sistema de pagos completo:
-
-- QR para pagos presenciales  
-- Checkout online con tarjeta  
-- Confirmación en tiempo real (webhooks)  
-- Fallback automático con polling  
-- Idempotencia para evitar duplicados  
+Desarrollo aplicaciones fullstack con foco en e-commerce y sistemas de pago.
+Trabajo con Flutter en mobile y web, Node.js + Express en el backend, integrando
+APIs de pago como MercadoPago con webhooks, polling e idempotencia.
 
 ---
 
-## 🔄 Flujo de Pago
+## 🛒 Proyecto destacado — Biye
 
-1. Usuario inicia checkout  
-2. Se crea orden en backend  
-3. Usuario paga (QR o tarjeta)  
-4. MercadoPago envía webhook  
-5. Backend valida estado  
-6. Polling actúa como fallback  
-7. Orden se actualiza en tiempo real  
+**[biye-ecommerce](https://github.com/MartinBernardoBonilla/biye-ecommerce)** · E-commerce fullstack con sistema de pagos completo
+
+🌐 **Demo:** [biye-app.vercel.app](https://biye-app.vercel.app) · ⚙️ **API:** [biye-ecommerce-production.up.railway.app](https://biye-ecommerce-production.up.railway.app)
+
+| Feature | Estado |
+|---|---|
+| Pagos con QR presencial | ✅ |
+| Checkout online con tarjeta | ✅ |
+| Webhooks + Polling + Fallback | ✅ |
+| Idempotencia en pagos | ✅ |
+| Deploy con Docker multi-stage | ✅ |
 
 ---
 
-## 🧠 Stack
+## Stack
 
-**Frontend**
-- Flutter · Dart  
-- BLoC · Clean Architecture  
+**Mobile & Web**
+![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat&logo=dart&logoColor=white)
 
 **Backend**
-- Node.js · Express  
-- MongoDB  
+![Node.js](https://img.shields.io/badge/Node.js-20-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?style=flat&logo=mongodb&logoColor=white)
 
 **Infraestructura**
-- Docker  
-- Railway  
-- Vercel  
+![Docker](https://img.shields.io/badge/Docker-multi--stage-2496ED?style=flat&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-deploy-0B0D0E?style=flat&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deploy-000000?style=flat&logo=vercel&logoColor=white)
 
 ---
 
-## 📫 Contacto
+## Stats
 
-- LinkedIn  
-- Portfolio  
-- Email  
-
----
-
-## 📊 Stats
-
-(aca dejas tus stats)
+![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=default&hide_border=true&count_private=true)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=default&hide_border=true)
