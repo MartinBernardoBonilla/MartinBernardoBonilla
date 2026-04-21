@@ -10,6 +10,8 @@
 
 ### 👨‍💻 Sobre mí
 Especialista en el desarrollo de ecosistemas de e-commerce y soluciones fullstack. Mi enfoque combina la **estrategia de marca y conversión** (WoodStack) con la **arquitectura de software robusta y escalable** (Biye).
+Fullstack developer especializado en e-commerce y sistemas de pago en tiempo real.
+Construyo desde la arquitectura del backend hasta la experiencia mobile con Flutter.
 
 ---
 
