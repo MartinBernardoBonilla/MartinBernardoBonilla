@@ -1,38 +1,52 @@
 # Martín Bernardo Bonilla
+
 **Fullstack Developer** · Node.js · Flutter · MongoDB · Argentina 🇦🇷
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martín_Bonilla-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/martinbernardobonilla)
-[![Portfolio](https://img.shields.io/badge/Portfolio-WoodStack-646CFF?style=flat-square&logo=vite)](https://woodstack-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martín_Bonilla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/martinbernardobonilla)
+[![Portfolio](https://img.shields.io/badge/Portfolio-WoodStack-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://woodstack-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-contacto-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martinbernardobonilla@gmail.com)
 
 ---
 
 ### 👨‍💻 Sobre mí
-Mi enfoque combina el **marketing estratégico** de mi etapa en WoodStack con la **arquitectura de software robusta**. Me especializo en e-commerce y sistemas de pago de alta fidelidad.
+Especialista en el desarrollo de ecosistemas de e-commerce y soluciones fullstack. Mi enfoque combina la **estrategia de marca y conversión** (WoodStack) con la **arquitectura de software robusta y escalable** (Biye).
 
-## 🚀 Proyectos Principales
+---
+
+## 🚀 Proyectos Destacados
 
 ### 🛒 [Biye — E-commerce Fullstack](https://github.com/MartinBernardoBonilla/biye-ecommerce)
-E-ecosistema completo con integración avanzada de Mercado Pago (QR, Webhooks, Idempotencia).
+Ecosistema integral con pagos dinámicos.
+- **Backend:** Node.js, Express, Redis, MongoDB.
+- **Frontend:** Flutter (Mobile/Web) con arquitectura BLoC.
+- **Pagos:** Mercado Pago (QR, Webhooks e Idempotencia).
 
 ### 🪵 [WoodStack Portfolio](https://woodstack-portfolio.vercel.app/)
-Mi identidad de marca previa enfocada en branding y optimización de conversión.
+Mi identidad de marca previa y plataforma de branding personal.
+- **Tecnologías:** React, Vite, Tailwind CSS.
+- **Enfoque:** Optimización de experiencia de usuario (UX) y despliegue rápido.
 
 ---
 
 ## 🛠️ Stack Tecnológico
-**Mobile/Web:** Flutter, Dart, React.
-**Backend/Data:** Node.js (v22), Express, MongoDB, Redis.
-**DevOps:** Docker, Railway, Vercel.
+
+**Frontend & Mobile** ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+**Backend & Data** ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+
+**DevOps & Infra** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
 ---
-![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true)
-# 2. Configurar y levantar Backend
-cd backend
-npm install
-cp .env.example .env
-npm run dev
 
-# 3. Iniciar Frontend
-cd ../frontend
-flutter pub get
-flutter run
+## 📊 Estadísticas
+![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=tokyonight&hide_border=true)
