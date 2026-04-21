@@ -1,53 +1,72 @@
-# Martín Bernardo Bonilla
+# 🛍️ Biye — Plataforma E-commerce Fullstack
+**Flutter** + **Node.js** + **MongoDB** + **Mercado Pago**
 
-**Fullstack Developer** · Node.js · Flutter · MongoDB · Argentina 🇦🇷
+[![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel)](https://biye-app.vercel.app)
+[![Railway](https://img.shields.io/badge/API-Railway-0B0D0E?style=for-the-badge&logo=railway)](https://biye-ecommerce-production.up.railway.app)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martín_Bonilla-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/martinbernardobonilla)
-[![Portfolio](https://img.shields.io/badge/Portfolio-WoodStack-646CFF?style=flat-square&logo=vite)](https://woodstack-portfolio.vercel.app)
-[![Email](https://img.shields.io/badge/Email-contacto-D14836?style=flat-square&logo=gmail)](mailto:martinbernardobonilla@gmail.com)
-
----
-
-### 👨‍💻 Sobre mí
-Desarrollo aplicaciones fullstack con foco en e-commerce y sistemas de pago de alta fidelidad. 
-Mi enfoque combina el **marketing estratégico** (nacido en WoodStack) con la **arquitectura de software robusta**. 
-
-Trabajo con Flutter en mobile y web, Node.js + Express en el backend, integrando APIs de pago como **MercadoPago** con arquitecturas basadas en webhooks, polling e idempotencia.
+**Biye** es una plataforma de comercio electrónico moderna y genérica, diseñada para ser adaptable a cualquier tipo de negocio. Ofrece un sistema de pagos robusto e integral, con una arquitectura limpia lista para escalar.
 
 ---
 
-## 🚀 Proyectos Principales
+## ✨ Demo en Vivo
+- 📱 **Frontend (Web):** [Ver Demo](https://biye-app.vercel.app)
+- ⚙️ **API Backend:** [Railway Production](https://biye-ecommerce-production.up.railway.app)
 
-### 🛒 [Biye](https://github.com/MartinBernardoBonilla/biye-ecommerce)
-*E-commerce fullstack con sistema de pagos avanzado.*
-- **Demo:** [biye-app.vercel.app](https://biye-app.vercel.app)
-- **Logros:** Integración total de QR, Webhooks e infraestructura Dockerizada.
+---
 
-### 🪵 [WoodStack Portfolio](https://woodstack-portfolio.vercel.app/)
-*Mi identidad de marca previa y portfolio de marketing/desarrollo.*
-- **Tecnologías:** React + Vite + Vercel.
-- **Enfoque:** Branding, captación de clientes y optimización de conversión (CRO).
+## 🚀 Características Principales
+
+✅ **Sistema de Pagos Mercado Pago:**
+- QR para pago presencial y Checkout Pro online.
+- Sincronización vía **Webhooks + Polling inteligente**.
+- **Idempotencia** garantizada en transacciones.
+- Fallback automático ante fallas de red.
+
+✅ **Arquitectura & Seguridad:**
+- Frontend: Clean Architecture + BLoC (Hydrated).
+- Backend: Modular con Express + ES Modules.
+- Autenticación JWT segura y Rate Limiting.
+- Contenedorización total para desarrollo y producción.
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-**Frontend & Mobile** ![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=flat&logo=dart&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+### **Interfaz (Frontend)**
+- **Flutter + Dart**
+- **BLoC** (Gestión de estado profesional)
+- **qr_flutter** & **url_launcher**
 
-**Backend & Data** ![Node.js](https://img.shields.io/badge/Node.js-22-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-7.0-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
+### **Servicios (Backend)**
+- **Node.js (v22) + Express**
+- **MongoDB + Mongoose**
+- **Redis** (Optimización de caché)
+- Mercado Pago SDK Oficial
 
-**Infraestructura** ![Docker](https://img.shields.io/badge/Docker-multi--stage-2496ED?style=flat&logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-deploy-0B0D0E?style=flat&logo=railway&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-deploy-000000?style=flat&logo=vercel&logoColor=white)
+### **🚀 DevOps & Infraestructura**
+- **Docker & Docker Compose**
+- **Railway** (Backend CD)
+- **Vercel** (Frontend CI)
+- **Ngrok** (Túneles para Webhooks en desarrollo)
 
 ---
 
-## 📊 Estadísticas de GitHub
+## ⚙️ Cómo Ejecutar Localmente
 
-![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=tokyonight&hide_border=true)
+```bash
+# 1. Clonar
+git clone [https://github.com/MartinBernardoBonilla/biye-ecommerce.git](https://github.com/MartinBernardoBonilla/biye-ecommerce.git)
+cd biye-ecommerce
+
+# 2. Levantar Backend
+cd backend
+npm install
+cp .env.example .env # Configura tus credenciales
+npm run dev
+
+# 3. Iniciar Frontend
+cd ../frontend
+flutter pub get
+flutter run
+💳 Tarjetas de Prueba (Sandbox)MarcaNúmeroCVVVencimientoVisa4509 9535 6623 370412311/25Mastercard5031 7557 3453 060412311/25👨‍💻 AutorMartín Bernardo Bonilla - Fullstack DeveloperLinkedInPortfolio WoodStackMIT © 2026 Martín Bernardo Bonilla
