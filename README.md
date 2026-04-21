@@ -52,7 +52,7 @@
 
 ```bash
 # 1. Clonar el repositorio
-git clone [https://github.com/MartinBernardoBonilla/biye-ecommerce.git](https://github.com/MartinBernardoBonilla/biye-ecommerce.git)
+git clone https://github.com/MartinBernardoBonilla/biye-ecommerce.git
 cd biye-ecommerce
 
 # 2. Configurar y levantar Backend
