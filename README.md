@@ -45,7 +45,8 @@
 - **Docker & Docker Compose:** Contenedorización multi-etapa para entornos consistentes.
 - **CI/CD:** Despliegue automatizado en **Railway** (Backend) y **Vercel** (Frontend).
 - **Entorno de Dev:** Configuración de túneles **Ngrok** para pruebas de Webhooks en tiempo real.
-
+  
+Observabilidad: Gestión de logs con Winston/Morgan y monitoreo de salud del servidor en Railway.
 ---
 
 ## ⚙️ Instalación Local
