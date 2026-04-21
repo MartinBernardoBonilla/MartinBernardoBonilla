@@ -1,72 +1,67 @@
+![Backend Status](https://img.shields.io/badge/Backend-Running-success?style=for-the-badge&logo=node.js)
+![Frontend Status](https://img.shields.io/badge/Frontend-Live-blue?style=for-the-badge&logo=vercel)
+![Docker](https://img.shields.io/badge/DevOps-Docker--Ready-2496ED?style=for-the-badge&logo=docker)
+
 # 🛍️ Biye — Plataforma E-commerce Fullstack
-**Flutter** + **Node.js** + **MongoDB** + **Mercado Pago**
+**Desarrollo de alto impacto con Flutter, Node.js y Mercado Pago**
 
-[![Vercel](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel)](https://biye-app.vercel.app)
-[![Railway](https://img.shields.io/badge/API-Railway-0B0D0E?style=for-the-badge&logo=railway)](https://biye-ecommerce-production.up.railway.app)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
-**Biye** es una plataforma de comercio electrónico moderna y genérica, diseñada para ser adaptable a cualquier tipo de negocio. Ofrece un sistema de pagos robusto e integral, con una arquitectura limpia lista para escalar.
+**Biye** es un ecosistema de e-commerce diseñado para gestionar el flujo completo de ventas, desde la navegación de productos hasta la conciliación de pagos en tiempo real. Este proyecto demuestra la implementación de arquitecturas escalables y la integración profunda de servicios de pago.
 
 ---
 
 ## ✨ Demo en Vivo
-- 📱 **Frontend (Web):** [Ver Demo](https://biye-app.vercel.app)
+- 📱 **Frontend (Web/Mobile):** [biye-app.vercel.app](https://biye-app.vercel.app)
 - ⚙️ **API Backend:** [Railway Production](https://biye-ecommerce-production.up.railway.app)
 
 ---
 
-## 🚀 Características Principales
+## 🚀 Características Técnicas & Pagos
 
-✅ **Sistema de Pagos Mercado Pago:**
-- QR para pago presencial y Checkout Pro online.
-- Sincronización vía **Webhooks + Polling inteligente**.
-- **Idempotencia** garantizada en transacciones.
-- Fallback automático ante fallas de red.
+✅ **Ecosistema de Pagos Mercado Pago:**
+- **Checkout Pro & QR:** Flujos de pago online y presenciales completamente funcionales.
+- **Sincronización Avanzada:** Implementación de **Webhooks + Polling inteligente** para garantizar que el estado del pedido sea siempre exacto.
+- **Resiliencia:** Sistema de **Fallback automático** e **Idempotencia** en transacciones para evitar duplicaciones y errores de red.
 
-✅ **Arquitectura & Seguridad:**
-- Frontend: Clean Architecture + BLoC (Hydrated).
-- Backend: Modular con Express + ES Modules.
-- Autenticación JWT segura y Rate Limiting.
-- Contenedorización total para desarrollo y producción.
+✅ **Arquitectura de Software:**
+- **Frontend:** Implementación de *Clean Architecture* con gestión de estado a través de **BLoC (Hydrated)** para persistencia local.
+- **Backend:** Estructura modular basada en Express y ES Modules, optimizada para alta concurrencia.
+- **Seguridad:** Autenticación robusta con JWT, gestión de roles y Rate Limiting.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🧠 Stack Tecnológico
 
 ### **Interfaz (Frontend)**
 - **Flutter + Dart**
-- **BLoC** (Gestión de estado profesional)
-- **qr_flutter** & **url_launcher**
+- **BLoC & Hydrated BLoC** (Persistencia de estado)
+- **Integración Nativa:** URL Launcher y generación dinámica de QR.
 
 ### **Servicios (Backend)**
 - **Node.js (v22) + Express**
-- **MongoDB + Mongoose**
-- **Redis** (Optimización de caché)
-- Mercado Pago SDK Oficial
+- **MongoDB + Mongoose** (Modelado de datos complejo)
+- **Redis** (Optimización de caché y sesiones)
 
-### **🚀 DevOps & Infraestructura**
-- **Docker & Docker Compose**
-- **Railway** (Backend CD)
-- **Vercel** (Frontend CI)
-- **Ngrok** (Túneles para Webhooks en desarrollo)
+### **⚙️ DevOps & Infraestructura**
+- **Docker & Docker Compose:** Contenedorización multi-etapa para entornos consistentes.
+- **CI/CD:** Despliegue automatizado en **Railway** (Backend) y **Vercel** (Frontend).
+- **Entorno de Dev:** Configuración de túneles **Ngrok** para pruebas de Webhooks en tiempo real.
 
 ---
 
-## ⚙️ Cómo Ejecutar Localmente
+## ⚙️ Instalación Local
 
 ```bash
-# 1. Clonar
+# 1. Clonar el repositorio
 git clone [https://github.com/MartinBernardoBonilla/biye-ecommerce.git](https://github.com/MartinBernardoBonilla/biye-ecommerce.git)
 cd biye-ecommerce
 
-# 2. Levantar Backend
+# 2. Configurar y levantar Backend
 cd backend
 npm install
-cp .env.example .env # Configura tus credenciales
+cp .env.example .env
 npm run dev
 
 # 3. Iniciar Frontend
 cd ../frontend
 flutter pub get
 flutter run
-💳 Tarjetas de Prueba (Sandbox)MarcaNúmeroCVVVencimientoVisa4509 9535 6623 370412311/25Mastercard5031 7557 3453 060412311/25👨‍💻 AutorMartín Bernardo Bonilla - Fullstack DeveloperLinkedInPortfolio WoodStackMIT © 2026 Martín Bernardo Bonilla
