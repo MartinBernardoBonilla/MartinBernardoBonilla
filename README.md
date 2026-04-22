@@ -74,9 +74,13 @@ Mi identidad de marca y plataforma de branding personal.
 
 ## 📊 Estadísticas
 
-![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+### GitHub Stats
 
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=tokyonight&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+
+### Lenguajes más usados
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
