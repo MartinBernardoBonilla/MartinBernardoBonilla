@@ -2,6 +2,8 @@
 
 **Fullstack Developer** · Node.js · Flutter · MongoDB · Argentina 🇦🇷
 
+![Visitors](https://komarev.com/ghpvc/?username=MartinBernardoBonilla&color=blue&style=flat-square)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Martín_Bonilla-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/martinbernardobonilla)
 [![Portfolio](https://img.shields.io/badge/Portfolio-WoodStack-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://woodstack-portfolio.vercel.app)
 [![Email](https://img.shields.io/badge/Email-contacto-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martinbernardobonilla@gmail.com)
@@ -13,6 +15,10 @@
 Especialista en el desarrollo de ecosistemas de e-commerce y soluciones fullstack. Mi enfoque combina la **estrategia de marca y conversión** (WoodStack) con la **arquitectura de software robusta y escalable** (Biye).
 
 Construyo desde la arquitectura del backend hasta la experiencia mobile con Flutter.
+
+---
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=MartinBernardoBonilla&theme=tokyonight&no-frame=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
@@ -63,3 +69,7 @@ Mi identidad de marca y plataforma de branding personal.
 ![Stats](https://github-readme-stats.vercel.app/api?username=MartinBernardoBonilla&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinBernardoBonilla&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+*"Construyo software que vende."*
