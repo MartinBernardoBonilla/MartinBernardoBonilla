@@ -18,7 +18,6 @@ Construyo desde la arquitectura del backend hasta la experiencia mobile con Flut
 
 ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=MartinBernardoBonilla&theme=tokyonight&no-frame=true&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
@@ -27,15 +26,24 @@ Construyo desde la arquitectura del backend hasta la experiencia mobile con Flut
 ### 🛒 [Biye — E-commerce Fullstack](https://github.com/MartinBernardoBonilla/biye-ecommerce)
 
 Ecosistema integral con pagos dinámicos.
-- **Backend:** Node.js, Express, Redis, MongoDB.
-- **Frontend:** Flutter (Mobile/Web) con arquitectura BLoC.
-- **Pagos:** Mercado Pago (QR, Webhooks e Idempotencia).
+
+| Componente | Tecnologías |
+|------------|-------------|
+| **Backend** | Node.js · Express · Redis · MongoDB |
+| **Frontend** | Flutter · BLoC · Dart |
+| **Pagos** | Mercado Pago (QR + Webhooks + Idempotencia) |
+
+---
 
 ### 🪵 [WoodStack Portfolio](https://woodstack-portfolio.vercel.app/)
 
 Mi identidad de marca y plataforma de branding personal.
-- **Tecnologías:** React, Vite, Tailwind CSS.
-- **Enfoque:** Optimización de UX y despliegue rápido.
+
+| Componente | Tecnologías |
+|------------|-------------|
+| **Core** | React · Vite |
+| **Estilos** | Tailwind CSS · CSS Modules |
+| **Despliegue** | Vercel |
 
 ---
 
