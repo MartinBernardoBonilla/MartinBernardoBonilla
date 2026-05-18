@@ -22,6 +22,7 @@
 I'm a fullstack engineer specializing in **distributed payment systems** and **mobile commerce**.
 
 I build end-to-end solutions — from backend orchestration and asynchronous payment reconciliation to high-performance frontend experiences.
+I've implemented production-ready payment webhooks and idempotent order processing with Mercado Pago.
 
 ---
 
