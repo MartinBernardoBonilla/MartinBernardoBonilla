@@ -48,7 +48,7 @@ Production-oriented commerce platform focused on resilient payment consistency.
 | **Frontend** | Flutter · Dart · BLoC |
 | **Payments** | Mercado Pago · Webhooks · Polling · Idempotency |
 
-🔗 **Demo:** [biye-app.vercel.app](https://biye-app.vercel.app)
+🔗 **Demo:** [biye-app-final.vercel.app](https://biye-app-final.vercel.app)
 
 ---
 
