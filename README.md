@@ -11,7 +11,7 @@
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martinbernardobonilla@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-MartinBernardoBonilla-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MartinBernardoBonilla)
 
-**Building resilient commerce systems and conversion-oriented digital products**
+Engineering payment infrastructure for modern commerce
 
 </div>
 
